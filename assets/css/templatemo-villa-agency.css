@@ -745,7 +745,7 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(RERA-NO-P50500052269-P50500051644.jpg);
+  background-image: url(../images/banner-01.jpg);
 }
 
 .main-banner .item-2 {
@@ -776,7 +776,7 @@ Banner Style
   font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   line-height: 72px;
   width: 50%;
   margin-bottom: 0px;
@@ -1690,6 +1690,7 @@ Contact Page Style
 .contact-page #contact-form button:hover {
   background-color: #f35525;
 }
+
 
 
 /* 

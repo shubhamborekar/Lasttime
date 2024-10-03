@@ -740,7 +740,7 @@ Banner Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 220px 20% 320px 20%;
+  padding: 120px 5% 160px 5%; /* Adjusted padding for mobile */
   margin-top: 0px;
 }
 
@@ -759,12 +759,12 @@ Banner Style
 .main-banner .item span.category {
   background-color: #fff;
   color: #1e1e1e;
-  font-size: 16px;
+  font-size: 14px; /* Reduced font size for mobile */
   font-weight: 500;
   text-transform: capitalize;
-  padding: 6px 15px;
+  padding: 4px 10px; /* Adjusted padding for mobile */
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Adjusted margin for mobile */
 }
 
 .main-banner .item span.category em {
@@ -773,27 +773,28 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 62px;
+  font-size: 36px; /* Reduced font size for mobile */
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
-  line-height: 72px;
-  width: 50%;
+  line-height: 44px; /* Adjusted line height for mobile */
+  width: 100%; /* Changed width for mobile */
   margin-bottom: 0px;
 }
 
 .main-banner .owl-dots {
   position: absolute;
-  bottom: 60px;
-  left: 20%;
+  bottom: 30px; /* Adjusted position for mobile */
+  left: 50%; /* Centered dots for mobile */
+  transform: translateX(-50%); /* Centering adjustment */
 }
 
 .main-banner .owl-dots .owl-dot {
-  width: 10px;
-  height: 10px;
+  width: 8px; /* Adjusted size for mobile */
+  height: 8px; /* Adjusted size for mobile */
   background-color: #fff;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 8px; /* Adjusted margin for mobile */
   transition: all .5s;
 }
 
@@ -805,15 +806,15 @@ Banner Style
   position: absolute;
   top: 50%;
   width: 100%;
-  transform: translateY(-50px);
+  transform: translateY(-50%);
 }
 
 .main-banner .owl-nav .owl-prev i,
 .main-banner .owl-nav .owl-next i {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
+  width: 40px; /* Reduced size for mobile */
+  height: 40px; /* Reduced size for mobile */
+  line-height: 40px; /* Adjusted line height */
+  font-size: 20px; /* Adjusted font size */
   display: inline-block;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
@@ -824,12 +825,12 @@ Banner Style
 
 .main-banner .owl-nav .owl-prev i {
   position: absolute;
-  left: 45px;
+  left: 20px; /* Adjusted position for mobile */
 }
 
 .main-banner .owl-nav .owl-next i {
   position: absolute;
-  right: 45px;
+  right: 20px; /* Adjusted position for mobile */
 }
 
 .main-banner .owl-nav .owl-prev i:hover,
@@ -837,6 +838,7 @@ Banner Style
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
 
 
 
